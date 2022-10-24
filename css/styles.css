@@ -2,6 +2,15 @@ body {
   background-image: url(../images/mar_prueba.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Bebas Neue", cursive;
+  color: whitesmoke; }
+
+.cuepogen {
+  background-image: url(../images/mar_prueba.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: "Bebas Neue", cursive;
   color: whitesmoke; }
 
@@ -10,7 +19,12 @@ body {
   flex-direction: column;
   align-items: center; }
   .titulogen hr {
-    size: 10px; }
+    border: 0;
+    clear: both;
+    display: block;
+    width: 96%;
+    background-color: whitesmoke;
+    height: 5px; }
   .titulogen a {
     display: flex;
     flex-direction: column;

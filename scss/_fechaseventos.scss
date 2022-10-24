@@ -4,7 +4,12 @@
     align-items: center;
 
     hr{
-        size: 10px;
+        border: 0;
+        clear:both;
+        display:block;
+        width: 96%;               
+        background-color:whitesmoke;
+        height: 5px;
     }
 
     a {
