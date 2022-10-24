@@ -6,13 +6,18 @@ body {
   font-family: "Bebas Neue", cursive;
   color: whitesmoke; }
 
-.cuepogen {
-  background-image: url(../images/mar_prueba.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: "Bebas Neue", cursive;
-  color: whitesmoke; }
+.titulogen {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .titulogen img {
+    width: 25%;
+    margin: 2% 0% 5% 0%; }
+
+.artistas {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
 
 .titulogen {
   display: flex;
