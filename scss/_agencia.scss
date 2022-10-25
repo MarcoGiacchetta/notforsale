@@ -1,18 +1,37 @@
-.titulogen {
+.titulosartistas {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-   img {
-    width: 25%;
-    margin: 2% 0% 5% 0%;
-   }
 }
 
 .artistas {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    margin: 2%;
+}
 
-    
+.nombresartistas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10%;
+
+    a {
+        font-size: 200%;
+    }
+}
+
+.fotosartistascol {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+
+    a {
+        margin-bottom: 2%;
+
+        img {
+            width: 90%;
+            box-shadow: 0px 0px 8px 8px black;
+            border-radius: 2%;
+        }
+    }
 }
