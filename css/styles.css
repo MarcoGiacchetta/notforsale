@@ -19,7 +19,7 @@ a:visited {
   text-decoration: none; }
 
 a:hover {
-  color: whitesmoke; }
+  color: gray; }
 
 .titulosartistas {
   display: flex;
@@ -74,8 +74,20 @@ a:hover {
   flex-direction: column;
   justify-content: flex-start;
   margin-left: 5%; }
-  .artistafoto a img {
-    width: 3%; }
+  .artistafoto a {
+    display: flex;
+    margin-bottom: 2%; }
+    .artistafoto a img {
+      width: 3%; }
+
+.separacion {
+  border: 0;
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: whitesmoke;
+  height: 10px;
+  margin-left: 2%; }
 
 .titulogen {
   display: flex;
