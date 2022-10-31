@@ -49,6 +49,34 @@ a:hover {
       box-shadow: 0px 0px 8px 8px black;
       border-radius: 2%; }
 
+.logoartista {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .logoartista img {
+    width: 10%; }
+
+.artistasec {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 1%; }
+  .artistasec img {
+    width: 80%; }
+
+.artistadesc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 20%; }
+
+.artistafoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 5%; }
+  .artistafoto a img {
+    width: 3%; }
+
 .titulogen {
   display: flex;
   flex-direction: column;
