@@ -67,13 +67,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  margin-left: 20%; }
+  margin-left: 10%; }
 
 .artistafoto {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-left: 5%; }
+  margin-left: 2%; }
   .artistafoto a {
     display: flex;
     margin-bottom: 2%; }
@@ -88,6 +88,12 @@ a:hover {
   background-color: whitesmoke;
   height: 10px;
   margin-left: 2%; }
+
+.soundcloud {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center; }
 
 .titulogen {
   display: flex;
